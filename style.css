@@ -77,7 +77,7 @@ border-radius: 10px;
 cursor: pointer;
 }
 .blink-me {
-color: #E0B612;
+    color: #E0B612;
 }
 .submit-btn {
     border: none;
@@ -103,4 +103,15 @@ color: #E0B612;
 .action-left {
     color: #FF3C5F;
     margin-top: 10px;
+}
+
+/* extra added by me  */
+.digitBtn:active,.generate-btn:active{
+    background-color: orangered;
+}
+#notMatched, #matched{
+    display: none;
+}
+.generate-btn:active{
+    border-color: orchid;
 }
